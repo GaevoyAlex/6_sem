@@ -1,0 +1,31 @@
+[('Techniques', 'NNS'), ('which', 'WDT'), ('are', 'VBP'), ('used', 'VBN'), ('to', 'TO'), ('win', 'VB'), ('customers', 'NNS'), ('include', 'VBP'), ('coupons', 'NNS'), ('samples', 'NNS'), ('money', 'NN'), ('back', 'RP'), ('competitions', 'NNS'), ('etc', 'NN')]
+
+[('Many', 'JJ'), ('of', 'IN'), ('these', 'DT'), ('techniques', 'NNS'), ('are', 'VBP'), ('over', 'IN'), ('a', 'DT'), ('hundred', 'CD'), ('years', 'NNS'), ('old', 'JJ')]
+
+[('New', 'NNP'), ('promotion', 'NN'), ('techniques', 'NNS'), ('are', 'VBP'), ('not', 'RB'), ('often', 'RB'), ('developed', 'VBN'), ('and', 'CC'), ('even', 'RB'), ('when', 'WRB'), ('they', 'PRP'), ('are', 'VBP'), ('there', 'EX'), ('is', 'VBZ'), ('always', 'RB'), ('a', 'DT'), ('risk', 'NN'), ('that', 'IN'), ('they', 'PRP'), ('will', 'MD'), ('not', 'RB'), ('please', 'VB'), ('customers', 'NNS')]
+
+[('So', 'RB'), ('why', 'WRB'), ('do', 'VBP'), ('companies', 'NNS'), ('still', 'RB'), ('try', 'VBP'), ('to', 'TO'), ('develop', 'VB'), ('new', 'JJ'), ('promotion', 'NN'), ('techniques', 'NNS')]
+
+[('The', 'DT'), ('answer', 'NN'), ('is', 'VBZ'), ('because', 'IN'), ('companies', 'NNS'), ('which', 'WDT'), ('do', 'VBP'), ('develop', 'VB'), ('a', 'DT'), ('successful', 'JJ'), ('new', 'JJ'), ('promotion', 'NN'), ('can', 'MD'), ('win', 'VB'), ('many', 'JJ'), ('customers', 'NNS'), ('because', 'IN'), ('they', 'PRP'), ('are', 'VBP'), ('the', 'DT'), ('first', 'JJ'), ('to', 'TO'), ('use', 'VB'), ('the', 'DT'), ('technique', 'NN')]
+
+[('The', 'DT'), ('oil', 'NN'), ('company', 'NN'), ('Shell', 'NNP'), ('invented', 'VBD'), ('a', 'DT'), ('new', 'JJ'), ('promotion', 'NN'), ('called', 'VBN'), ('Money', 'NN')]
+
+[('Each', 'DT'), ('time', 'NN'), ('people', 'NNS'), ('bought', 'VBD'), ('a', 'DT'), ('Shell', 'NNP'), ('product', 'NN'), ('they', 'PRP'), ('were', 'VBD'), ('given', 'VBN'), ('half', 'NN'), ('of', 'IN'), ('a', 'DT'), ('bank', 'NN'), ('note', 'NN')]
+
+[('If', 'IN'), ('they', 'PRP'), ('got', 'VBD'), ('the', 'DT'), ('other', 'JJ'), ('half', 'NN'), ('of', 'IN'), ('the', 'DT'), ('note', 'NN'), ('they', 'PRP'), ('could', 'MD'), ('get', 'VB'), ('the', 'DT'), ('money', 'NN'), ('for', 'IN'), ('the', 'DT'), ('two', 'CD'), ('halves', 'NNS')]
+
+[('So', 'RB'), ('for', 'IN'), ('example', 'NN'), ('if', 'IN'), ('they', 'PRP'), ('got', 'VBD'), ('two', 'CD'), ('halves', 'NNS'), ('of', 'IN'), ('a', 'DT'), ('500', 'CD'), ('soum', 'JJ'), ('note', 'NN'), ('they', 'PRP'), ('could', 'MD'), ('get', 'VB'), ('500', 'CD'), ('soum', 'NNS'), ('in', 'IN'), ('cash', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Shell', 'NNP'), ('shop', 'NN')]
+
+[('The', 'DT'), ('competition', 'NN'), ('was', 'VBD'), ('very', 'RB'), ('successful', 'JJ'), ('because', 'IN'), ('it', 'PRP'), ('was', 'VBD'), ('simple', 'JJ'), ('it', 'PRP'), ('was', 'VBD'), ('easy', 'JJ'), ('to', 'TO'), ('win', 'VB'), ('and', 'CC'), ('people', 'NNS'), ('liked', 'VBD'), ('getting', 'VBG'), ('cash', 'NN'), ('immediately', 'RB')]
+
+[('Shell', 'NNP'), ('liked', 'VBD'), ('it', 'PRP'), ('because', 'IN'), ('it', 'PRP'), ('could', 'MD'), ('control', 'VB'), ('the', 'DT'), ('amount', 'NN'), ('of', 'IN'), ('money', 'NN'), ('it', 'PRP'), ('had', 'VBD'), ('to', 'TO'), ('pay', 'VB')]
+
+[('It', 'PRP'), ('printed', 'VBD'), ('a', 'DT'), ('limited', 'JJ'), ('number', 'NN'), ('of', 'IN'), ('matching', 'VBG'), ('halves', 'NNS')]
+
+[('Money', 'NN'), ('was', 'VBD'), ('a', 'DT'), ('very', 'RB'), ('successful', 'JJ'), ('promotion', 'NN'), ('and', 'CC'), ('paid', 'NN'), ('for', 'IN'), ('itself', 'PRP'), ('many', 'JJ'), ('times', 'NNS'), ('over', 'IN')]
+
+[('It', 'PRP'), ('helped', 'VBD'), ('Shell', 'NNP'), ('to', 'TO'), ('increase', 'VB'), ('its', 'PRP$'), ('sales', 'NNS'), ('by', 'IN'), ('50', 'CD'), ('over', 'IN'), ('a', 'DT'), ('ten', 'JJ'), ('week', 'NN'), ('period', 'NN')]
+
+[('When', 'WRB'), ('the', 'DT'), ('promotion', 'NN'), ('was', 'VBD'), ('over', 'IN'), ('sales', 'NNS'), ('remained', 'VBN'), ('high', 'JJ'), ('for', 'IN'), ('several', 'JJ'), ('This', 'DT'), ('was', 'VBD'), ('because', 'IN'), ('some', 'DT'), ('motorists', 'NNS'), ('who', 'WP'), ('had', 'VBD'), ('changed', 'VBN'), ('to', 'TO'), ('buy', 'VB'), ('Shell', 'NNP'), ('products', 'NNS'), ('during', 'IN'), ('the', 'DT'), ('promotion', 'NN'), ('continued', 'VBD'), ('to', 'TO'), ('buy', 'VB'), ('them', 'PRP'), ('after', 'IN'), ('the', 'DT'), ('promotion', 'NN'), ('ended', 'VBD')]
+
+

@@ -1,0 +1,5 @@
+2023-12-06 14:46:15,112 [INFO] GET request received for tables
+2023-12-06 17:20:48,695 [INFO] POST request received for creating a restaurant
+2023-12-06 17:20:57,769 [INFO] GET request received for restaurants
+2023-12-06 17:21:25,019 [WARNING] Invalid request method
+2023-12-06 17:22:01,562 [INFO] GET request received for restaurants
