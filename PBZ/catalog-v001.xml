@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1714552566599" name="duplicate:http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-14/" uri="bacterial_infections%20—%20копия.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1714552566599" name="duplicate:http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-14/" uri="bacterial_infections.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1714552566599" name="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-4/" uri="PBZ_2/lab-2_(1).rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1714552566599" name="duplicate:http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5/" uri="PBZ_2/lab_2_1.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1714552566599" name="duplicate:http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5/" uri="PBZ_2/lab_2_2%20—%20копия.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1714552566599" name="duplicate:http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5/" uri="PBZ_2/lab_2_2.rdf"/>
+    </group>
+</catalog>

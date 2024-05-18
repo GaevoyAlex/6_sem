@@ -24,7 +24,10 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#зуд -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#зуд">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Аллергические_заболевания"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Alergic_dies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#атопический_дерматит"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#депрессия"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#тревожное_расстройство"/>
     </owl:ObjectProperty>
     
 
@@ -32,11 +35,28 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#першение_боль_в_горле -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#першение_боль_в_горле">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Респираторные_заболевания"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#аллергический_ринит"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#астма"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#грипп"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#заболевшие -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#заболевшие"/>
     
 
 
@@ -51,80 +71,106 @@
     
 
 
-    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Аллергические_заболевания -->
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Alergic_dies -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Аллергические_заболевания">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Медицинская_диагностика"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Alergic_dies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Medical_diagnostic"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Гастроэнтерологические_заболевания -->
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Cardio_dies -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Гастроэнтерологические_заболевания">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Медицинская_диагностика"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Cardio_dies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Medical_diagnostic"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Инфекционные_болезни -->
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Endocrin_dies -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Инфекционные_болезни">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Медицинская_диагностика"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Endocrin_dies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Medical_diagnostic"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Кардиологические_заболевания -->
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Gastro_dies -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Кардиологические_заболевания">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Медицинская_диагностика"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Gastro_dies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Medical_diagnostic"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Медицинская_диагностика -->
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Infections_dies -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Медицинская_диагностика"/>
-    
-
-
-    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Неврологические_заболевания -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Неврологические_заболевания">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Медицинская_диагностика"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Infections_dies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Medical_diagnostic"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Онкологические_заболевания -->
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Medical_diagnostic -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Онкологические_заболевания">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Медицинская_диагностика"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Medical_diagnostic">
+        <rdfs:label>диагнозирование</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Психические_заболевия -->
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Neuro_dies -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Психические_заболевия">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Медицинская_диагностика"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Neuro_dies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Medical_diagnostic"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Ревматологические_заболевания -->
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Oncologic_dies -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Ревматологические_заболевания">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Медицинская_диагностика"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Oncologic_dies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Medical_diagnostic"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Респираторные_заболевания -->
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Psihical_dies -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Респираторные_заболевания">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Медицинская_диагностика"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Psihical_dies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Medical_diagnostic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Respirator_dies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Respirator_dies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Medical_diagnostic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Reumatologic_dies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Reumatologic_dies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Medical_diagnostic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#diabet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#diabet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Endocrin_dies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#gipoterioz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#gipoterioz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Endocrin_dies"/>
     </owl:Class>
     
 
@@ -132,15 +178,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#СПИД -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#СПИД">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Инфекционные_болезни"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Эндокринные_заболевания -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Эндокринные_заболевания">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Медицинская_диагностика"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Infections_dies"/>
     </owl:Class>
     
 
@@ -148,7 +186,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#аллергический_астма -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#аллергический_астма">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Аллергические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Alergic_dies"/>
     </owl:Class>
     
 
@@ -156,7 +194,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#аллергический_ринит -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#аллергический_ринит">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Аллергические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Alergic_dies"/>
     </owl:Class>
     
 
@@ -164,7 +202,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#аритмия -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#аритмия">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Кардиологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Cardio_dies"/>
     </owl:Class>
     
 
@@ -172,7 +210,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#астма -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#астма">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Респираторные_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Respirator_dies"/>
     </owl:Class>
     
 
@@ -180,7 +218,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#атопический_дерматит -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#атопический_дерматит">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Аллергические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Alergic_dies"/>
     </owl:Class>
     
 
@@ -188,7 +226,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#болезнь_Паркинсона -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#болезнь_Паркинсона">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Неврологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Neuro_dies"/>
     </owl:Class>
     
 
@@ -196,7 +234,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#бронхит -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#бронхит">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Респираторные_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Respirator_dies"/>
     </owl:Class>
     
 
@@ -204,7 +242,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#воспалительный_кишечный_синдром -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#воспалительный_кишечный_синдром">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Гастроэнтерологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Gastro_dies"/>
     </owl:Class>
     
 
@@ -212,7 +250,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#гастрит -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#гастрит">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Гастроэнтерологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Gastro_dies"/>
     </owl:Class>
     
 
@@ -220,15 +258,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#гипертония -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#гипертония">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Кардиологические_заболевания"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#гипотиреоз -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#гипотиреоз">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Эндокринные_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Cardio_dies"/>
     </owl:Class>
     
 
@@ -236,7 +266,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#грипп -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#грипп">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Инфекционные_болезни"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Infections_dies"/>
     </owl:Class>
     
 
@@ -244,15 +274,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#депрессия -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#депрессия">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Психические_заболевия"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#диабет -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#диабет">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Эндокринные_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Psihical_dies"/>
     </owl:Class>
     
 
@@ -260,7 +282,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#ишемическая_болезнь_сердца -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#ишемическая_болезнь_сердца">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Кардиологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Cardio_dies"/>
     </owl:Class>
     
 
@@ -268,7 +290,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#мигрень -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#мигрень">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Неврологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Neuro_dies"/>
     </owl:Class>
     
 
@@ -276,7 +298,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#остеоартроз -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#остеоартроз">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Ревматологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Reumatologic_dies"/>
     </owl:Class>
     
 
@@ -284,7 +306,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#пневмония -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#пневмония">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Респираторные_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Respirator_dies"/>
     </owl:Class>
     
 
@@ -292,7 +314,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#подагра -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#подагра">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Ревматологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Reumatologic_dies"/>
     </owl:Class>
     
 
@@ -300,7 +322,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#рак_легких -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#рак_легких">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Онкологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Oncologic_dies"/>
     </owl:Class>
     
 
@@ -308,7 +330,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#рак_молочной_железы -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#рак_молочной_железы">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Онкологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Oncologic_dies"/>
     </owl:Class>
     
 
@@ -316,7 +338,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#рак_простаты -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#рак_простаты">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Онкологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Oncologic_dies"/>
     </owl:Class>
     
 
@@ -324,7 +346,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#ревматоидный_артрит -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#ревматоидный_артрит">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Ревматологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Reumatologic_dies"/>
     </owl:Class>
     
 
@@ -332,7 +354,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#тревожное_расстройство -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#тревожное_расстройство">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Психические_заболевия"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Psihical_dies"/>
     </owl:Class>
     
 
@@ -340,7 +362,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#туберкулез -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#туберкулез">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Инфекционные_болезни"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Infections_dies"/>
     </owl:Class>
     
 
@@ -348,7 +370,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#шизофрения -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#шизофрения">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Психические_заболевия"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Psihical_dies"/>
     </owl:Class>
     
 
@@ -356,7 +378,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#эпилепсия -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#эпилепсия">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Неврологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Neuro_dies"/>
     </owl:Class>
     
 
@@ -364,7 +386,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#язва_желудка -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#язва_желудка">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Гастроэнтерологические_заболевания"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#Gastro_dies"/>
     </owl:Class>
     
 
@@ -535,7 +557,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#вторичный -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#вторичный">
-        <rdf:type rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#гипотиреоз"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#gipoterioz"/>
     </owl:NamedIndividual>
     
 
@@ -711,7 +733,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#первичный -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#первичный">
-        <rdf:type rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#гипотиреоз"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#gipoterioz"/>
     </owl:NamedIndividual>
     
 
@@ -815,7 +837,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#1_тип -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#1_тип">
-        <rdf:type rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#диабет"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#diabet"/>
     </owl:NamedIndividual>
     
 
@@ -823,7 +845,7 @@
     <!-- http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#2_тип -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#2_тип">
-        <rdf:type rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#диабет"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/eyon/ontologies/2024/3/untitled-ontology-5#diabet"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 

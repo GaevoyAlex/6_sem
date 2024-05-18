@@ -1,0 +1,719 @@
+Prefix(:=<http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7>
+
+Declaration(Class(:аллергические_заболевания))
+Declaration(Class(:анатомические_образования))
+Declaration(Class(:аутоиммунные_заболевания))
+Declaration(Class(:аутоиммунные_заболевания_желудочно-кишечного_тракта))
+Declaration(Class(:аутоиммунные_заболевания_опорно-двигательного_аппарата))
+Declaration(Class(:аутоиммунные_заболевания_сердечно-сосудистой_системы))
+Declaration(Class(:болезнь))
+Declaration(Class(:верхние_дыхательные_пути))
+Declaration(Class(:дыхательная_система))
+Declaration(Class(:желудочно-кишечный_тракт))
+Declaration(Class(:заболевание_анатомического_образования))
+Declaration(Class(:заболевания_дыхательной_системы))
+Declaration(Class(:заболевания_желудочно-кишечного_тракта))
+Declaration(Class(:заболевания_иммунной_системы))
+Declaration(Class(:заболевания_нижних_дыхательных_путей))
+Declaration(Class(:заболевания_опорно-двигательного_аппарата))
+Declaration(Class(:заболевания_печени))
+Declaration(Class(:заболевания_покровной_системы))
+Declaration(Class(:заболевания_сердечно-сосудистой_системы))
+Declaration(Class(:натуральные_числа))
+Declaration(Class(:нижние_дыхательные_пути))
+Declaration(Class(:опорно-двигательный_аппарат))
+Declaration(Class(:орган))
+Declaration(Class(:первичный_иммунодефицит))
+Declaration(Class(:покровная_система))
+Declaration(Class(:продукты_питания))
+Declaration(Class(:сердечно-сосудистая_система))
+Declaration(Class(:сердце))
+Declaration(Class(:система_органов))
+Declaration(Class(:сосуды))
+Declaration(Class(:структуры))
+Declaration(Class(:ткань))
+Declaration(ObjectProperty(:включение))
+Declaration(ObjectProperty(:вызывать))
+Declaration(ObjectProperty(:классификация))
+Declaration(ObjectProperty(:осложнение))
+Declaration(ObjectProperty(:поражаемая_структура))
+Declaration(ObjectProperty(:поражаемая_ткань))
+Declaration(ObjectProperty(:поражаемые_сосуды))
+Declaration(ObjectProperty(:поражаемый_орган))
+Declaration(ObjectProperty(:последствие))
+Declaration(ObjectProperty(:пример))
+Declaration(ObjectProperty(:разновидность))
+Declaration(ObjectProperty(:степень))
+Declaration(ObjectProperty(:строение))
+Declaration(ObjectProperty(:форма))
+Declaration(DataProperty(:симптом))
+Declaration(NamedIndividual(:амфиартрозы))
+Declaration(NamedIndividual(:анкилозирующий_спондилоартрит))
+Declaration(NamedIndividual(:артерии))
+Declaration(NamedIndividual(:артериолы))
+Declaration(NamedIndividual(:аутоиммунная_кардиомиопатия))
+Declaration(NamedIndividual(:аутоиммунный_атеросклероз))
+Declaration(NamedIndividual(:аутоиммунный_гепатит))
+Declaration(NamedIndividual(:аутоиммунный_миокардит))
+Declaration(NamedIndividual(:болезнь_Микулича))
+Declaration(NamedIndividual(:болезнь_Стилла))
+Declaration(NamedIndividual(:бронхи))
+Declaration(NamedIndividual(:бронхиолы))
+Declaration(NamedIndividual(:венулы))
+Declaration(NamedIndividual(:вены))
+Declaration(NamedIndividual(:гортань_ниже_голосовых_связок))
+Declaration(NamedIndividual(:двенадцатиперстная_кишка))
+Declaration(NamedIndividual(:желудок))
+Declaration(NamedIndividual(:желудочки))
+Declaration(NamedIndividual(:желудочно-кишечная_аллергия))
+Declaration(NamedIndividual(:желчный_пузырь))
+Declaration(NamedIndividual(:капилляры))
+Declaration(NamedIndividual(:клапаны))
+Declaration(NamedIndividual(:кожа))
+Declaration(NamedIndividual(:кожные_придатки))
+Declaration(NamedIndividual(:кости))
+Declaration(NamedIndividual(:лёгкие))
+Declaration(NamedIndividual(:межпозвоночные_суставы))
+Declaration(NamedIndividual(:миокард))
+Declaration(NamedIndividual(:мышцы))
+Declaration(NamedIndividual(:орехи))
+Declaration(NamedIndividual(:первичный_билиарный_холангит))
+Declaration(NamedIndividual(:первичный_желчный_холангит))
+Declaration(NamedIndividual(:печень))
+Declaration(NamedIndividual(:пищевая_аллергия))
+Declaration(NamedIndividual(:пищевод))
+Declaration(NamedIndividual(:плевра))
+Declaration(NamedIndividual(:поджелудочная_железа))
+Declaration(NamedIndividual(:подкожная_клетчатка))
+Declaration(NamedIndividual(:полимиозит))
+Declaration(NamedIndividual(:предсердия))
+Declaration(NamedIndividual(:прямая_кишка))
+Declaration(NamedIndividual(:ревматоидный_артрит))
+Declaration(NamedIndividual(:рыба))
+Declaration(NamedIndividual(:связки))
+Declaration(NamedIndividual(:сигмовидная_кишка))
+Declaration(NamedIndividual(:синдром_Леффлера))
+Declaration(NamedIndividual(:синдром_Свита))
+Declaration(NamedIndividual(:синдром_Фелти))
+Declaration(NamedIndividual(:слепая_кишка))
+Declaration(NamedIndividual(:слизистокожные_соединения))
+Declaration(NamedIndividual(:суставы))
+Declaration(NamedIndividual(:сухожилия))
+Declaration(NamedIndividual(:толстая_кишка))
+Declaration(NamedIndividual(:тонкая_кишка))
+Declaration(NamedIndividual(:трахея))
+Declaration(NamedIndividual(:туберкулёз_плевры))
+Declaration(NamedIndividual(:цироз_печени))
+Declaration(NamedIndividual(:эндокардит_Либмана-Сакса))
+Declaration(NamedIndividual(:ювенильный_ревматоидный_артрит))
+Declaration(NamedIndividual(:язвенный_колит))
+Declaration(NamedIndividual(:яйца))
+Declaration(NamedIndividual(<http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#5>))
+Declaration(AnnotationProperty(:включение))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :вызывать (:вызывать)
+
+ObjectPropertyDomain(:вызывать :продукты_питания)
+ObjectPropertyRange(:вызывать :аллергические_заболевания)
+
+# Object Property: :классификация (:классификация)
+
+ObjectPropertyDomain(:классификация :опорно-двигательный_аппарат)
+ObjectPropertyRange(:классификация :опорно-двигательный_аппарат)
+
+# Object Property: :осложнение (:осложнение)
+
+ObjectPropertyDomain(:осложнение :аутоиммунные_заболевания_желудочно-кишечного_тракта)
+ObjectPropertyDomain(:осложнение :аутоиммунные_заболевания_опорно-двигательного_аппарата)
+ObjectPropertyRange(:осложнение :аутоиммунные_заболевания_желудочно-кишечного_тракта)
+ObjectPropertyRange(:осложнение :аутоиммунные_заболевания_сердечно-сосудистой_системы)
+
+# Object Property: :поражаемая_структура (:поражаемая_структура)
+
+ObjectPropertyDomain(:поражаемая_структура :аутоиммунные_заболевания_опорно-двигательного_аппарата)
+ObjectPropertyDomain(:поражаемая_структура :аутоиммунные_заболевания_сердечно-сосудистой_системы)
+ObjectPropertyRange(:поражаемая_структура :опорно-двигательный_аппарат)
+ObjectPropertyRange(:поражаемая_структура :сердце)
+
+# Object Property: :поражаемая_ткань (:поражаемая_ткань)
+
+ObjectPropertyDomain(:поражаемая_ткань :аутоиммунные_заболевания_сердечно-сосудистой_системы)
+ObjectPropertyDomain(:поражаемая_ткань :заболевания_нижних_дыхательных_путей)
+ObjectPropertyRange(:поражаемая_ткань :нижние_дыхательные_пути)
+ObjectPropertyRange(:поражаемая_ткань :сердце)
+
+# Object Property: :поражаемые_сосуды (:поражаемые_сосуды)
+
+ObjectPropertyDomain(:поражаемые_сосуды :аутоиммунные_заболевания_сердечно-сосудистой_системы)
+ObjectPropertyRange(:поражаемые_сосуды :сосуды)
+
+# Object Property: :поражаемый_орган (:поражаемый_орган)
+
+ObjectPropertyDomain(:поражаемый_орган :аутоиммунные_заболевания_желудочно-кишечного_тракта)
+ObjectPropertyDomain(:поражаемый_орган :аутоиммунные_заболевания_опорно-двигательного_аппарата)
+ObjectPropertyDomain(:поражаемый_орган :заболевания_нижних_дыхательных_путей)
+ObjectPropertyDomain(:поражаемый_орган :заболевания_покровной_системы)
+ObjectPropertyRange(:поражаемый_орган :желудочно-кишечный_тракт)
+ObjectPropertyRange(:поражаемый_орган :нижние_дыхательные_пути)
+ObjectPropertyRange(:поражаемый_орган :опорно-двигательный_аппарат)
+ObjectPropertyRange(:поражаемый_орган :покровная_система)
+
+# Object Property: :последствие (:последствие)
+
+ObjectPropertyDomain(:последствие :аутоиммунные_заболевания_желудочно-кишечного_тракта)
+ObjectPropertyDomain(:последствие :аутоиммунные_заболевания_опорно-двигательного_аппарата)
+ObjectPropertyRange(:последствие :аутоиммунные_заболевания)
+ObjectPropertyRange(:последствие :заболевания_печени)
+
+# Object Property: :пример (:пример)
+
+ObjectPropertyDomain(:пример :опорно-двигательный_аппарат)
+ObjectPropertyRange(:пример :опорно-двигательный_аппарат)
+
+# Object Property: :разновидность (:разновидность)
+
+SubObjectPropertyOf(:разновидность owl:topObjectProperty)
+ObjectPropertyDomain(:разновидность :аутоиммунные_заболевания_желудочно-кишечного_тракта)
+ObjectPropertyDomain(:разновидность :аутоиммунные_заболевания_опорно-двигательного_аппарата)
+ObjectPropertyRange(:разновидность :аутоиммунные_заболевания_желудочно-кишечного_тракта)
+ObjectPropertyRange(:разновидность :аутоиммунные_заболевания_опорно-двигательного_аппарата)
+
+# Object Property: :степень (:степень)
+
+ObjectPropertyDomain(:степень :аутоиммунные_заболевания_желудочно-кишечного_тракта)
+ObjectPropertyDomain(:степень :аутоиммунные_заболевания_опорно-двигательного_аппарата)
+ObjectPropertyRange(:степень :натуральные_числа)
+
+# Object Property: :строение (:строение)
+
+ObjectPropertyDomain(:строение :нижние_дыхательные_пути)
+ObjectPropertyRange(:строение :нижние_дыхательные_пути)
+
+# Object Property: :форма (:форма)
+
+ObjectPropertyDomain(:форма :аллергические_заболевания)
+ObjectPropertyRange(:форма :аллергические_заболевания)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :симптом (:симптом)
+
+DataPropertyDomain(:симптом :аллергические_заболевания)
+DataPropertyDomain(:симптом :аутоиммунные_заболевания_желудочно-кишечного_тракта)
+DataPropertyDomain(:симптом :аутоиммунные_заболевания_опорно-двигательного_аппарата)
+DataPropertyDomain(:симптом :аутоиммунные_заболевания_сердечно-сосудистой_системы)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :аллергические_заболевания (:аллергические_заболевания)
+
+SubClassOf(:аллергические_заболевания :заболевания_иммунной_системы)
+
+# Class: :анатомические_образования (:анатомические_образования)
+
+SubClassOf(:анатомические_образования :заболевание_анатомического_образования)
+
+# Class: :аутоиммунные_заболевания (:аутоиммунные_заболевания)
+
+SubClassOf(:аутоиммунные_заболевания :первичный_иммунодефицит)
+
+# Class: :аутоиммунные_заболевания_желудочно-кишечного_тракта (:аутоиммунные_заболевания_желудочно-кишечного_тракта)
+
+SubClassOf(:аутоиммунные_заболевания_желудочно-кишечного_тракта :аутоиммунные_заболевания)
+SubClassOf(:аутоиммунные_заболевания_желудочно-кишечного_тракта :заболевания_желудочно-кишечного_тракта)
+
+# Class: :аутоиммунные_заболевания_опорно-двигательного_аппарата (:аутоиммунные_заболевания_опорно-двигательного_аппарата)
+
+SubClassOf(:аутоиммунные_заболевания_опорно-двигательного_аппарата :аутоиммунные_заболевания)
+SubClassOf(:аутоиммунные_заболевания_опорно-двигательного_аппарата :заболевания_опорно-двигательного_аппарата)
+
+# Class: :аутоиммунные_заболевания_сердечно-сосудистой_системы (:аутоиммунные_заболевания_сердечно-сосудистой_системы)
+
+SubClassOf(:аутоиммунные_заболевания_сердечно-сосудистой_системы :аутоиммунные_заболевания)
+SubClassOf(:аутоиммунные_заболевания_сердечно-сосудистой_системы :заболевания_сердечно-сосудистой_системы)
+
+# Class: :верхние_дыхательные_пути (:верхние_дыхательные_пути)
+
+SubClassOf(:верхние_дыхательные_пути :дыхательная_система)
+
+# Class: :дыхательная_система (:дыхательная_система)
+
+SubClassOf(:дыхательная_система :заболевания_дыхательной_системы)
+SubClassOf(:дыхательная_система :система_органов)
+
+# Class: :желудочно-кишечный_тракт (:желудочно-кишечный_тракт)
+
+SubClassOf(:желудочно-кишечный_тракт :аутоиммунные_заболевания_желудочно-кишечного_тракта)
+SubClassOf(:желудочно-кишечный_тракт :заболевания_желудочно-кишечного_тракта)
+SubClassOf(:желудочно-кишечный_тракт :система_органов)
+
+# Class: :заболевание_анатомического_образования (:заболевание_анатомического_образования)
+
+SubClassOf(:заболевание_анатомического_образования :болезнь)
+
+# Class: :заболевания_дыхательной_системы (:заболевания_дыхательной_системы)
+
+SubClassOf(:заболевания_дыхательной_системы :заболевание_анатомического_образования)
+
+# Class: :заболевания_желудочно-кишечного_тракта (:заболевания_желудочно-кишечного_тракта)
+
+SubClassOf(:заболевания_желудочно-кишечного_тракта :заболевание_анатомического_образования)
+
+# Class: :заболевания_иммунной_системы (:заболевания_иммунной_системы)
+
+SubClassOf(:заболевания_иммунной_системы :заболевание_анатомического_образования)
+
+# Class: :заболевания_нижних_дыхательных_путей (:заболевания_нижних_дыхательных_путей)
+
+SubClassOf(:заболевания_нижних_дыхательных_путей :заболевания_дыхательной_системы)
+
+# Class: :заболевания_опорно-двигательного_аппарата (:заболевания_опорно-двигательного_аппарата)
+
+SubClassOf(:заболевания_опорно-двигательного_аппарата :заболевание_анатомического_образования)
+
+# Class: :заболевания_печени (:заболевания_печени)
+
+SubClassOf(:заболевания_печени :заболевания_желудочно-кишечного_тракта)
+
+# Class: :заболевания_покровной_системы (:заболевания_покровной_системы)
+
+SubClassOf(:заболевания_покровной_системы :заболевание_анатомического_образования)
+
+# Class: :заболевания_сердечно-сосудистой_системы (:заболевания_сердечно-сосудистой_системы)
+
+SubClassOf(:заболевания_сердечно-сосудистой_системы :заболевание_анатомического_образования)
+
+# Class: :нижние_дыхательные_пути (:нижние_дыхательные_пути)
+
+SubClassOf(:нижние_дыхательные_пути :дыхательная_система)
+SubClassOf(:нижние_дыхательные_пути :заболевания_нижних_дыхательных_путей)
+
+# Class: :опорно-двигательный_аппарат (:опорно-двигательный_аппарат)
+
+SubClassOf(:опорно-двигательный_аппарат :аутоиммунные_заболевания_опорно-двигательного_аппарата)
+SubClassOf(:опорно-двигательный_аппарат :заболевания_опорно-двигательного_аппарата)
+SubClassOf(:опорно-двигательный_аппарат :система_органов)
+
+# Class: :орган (:орган)
+
+SubClassOf(:орган :анатомические_образования)
+
+# Class: :первичный_иммунодефицит (:первичный_иммунодефицит)
+
+SubClassOf(:первичный_иммунодефицит :заболевания_иммунной_системы)
+
+# Class: :покровная_система (:покровная_система)
+
+SubClassOf(:покровная_система :заболевания_покровной_системы)
+SubClassOf(:покровная_система :система_органов)
+
+# Class: :продукты_питания (:продукты_питания)
+
+SubClassOf(:продукты_питания :аллергические_заболевания)
+
+# Class: :сердечно-сосудистая_система (:сердечно-сосудистая_система)
+
+SubClassOf(:сердечно-сосудистая_система :аутоиммунные_заболевания_сердечно-сосудистой_системы)
+SubClassOf(:сердечно-сосудистая_система :заболевания_сердечно-сосудистой_системы)
+SubClassOf(:сердечно-сосудистая_система :система_органов)
+
+# Class: :сердце (:сердце)
+
+SubClassOf(:сердце :сердечно-сосудистая_система)
+
+# Class: :система_органов (:система_органов)
+
+SubClassOf(:система_органов :анатомические_образования)
+
+# Class: :сосуды (:сосуды)
+
+SubClassOf(:сосуды :сердечно-сосудистая_система)
+
+# Class: :структуры (:структуры)
+
+SubClassOf(:структуры :анатомические_образования)
+
+# Class: :ткань (:ткань)
+
+SubClassOf(:ткань :анатомические_образования)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :амфиартрозы (:амфиартрозы)
+
+ClassAssertion(:опорно-двигательный_аппарат :амфиартрозы)
+ObjectPropertyAssertion(:пример :амфиартрозы :межпозвоночные_суставы)
+
+# Individual: :анкилозирующий_спондилоартрит (:анкилозирующий_спондилоартрит)
+
+ClassAssertion(:аутоиммунные_заболевания_опорно-двигательного_аппарата :анкилозирующий_спондилоартрит)
+ObjectPropertyAssertion(:поражаемая_структура :анкилозирующий_спондилоартрит :межпозвоночные_суставы)
+ObjectPropertyAssertion(:степень :анкилозирующий_спондилоартрит <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#1>)
+ObjectPropertyAssertion(:степень :анкилозирующий_спондилоартрит <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#2>)
+ObjectPropertyAssertion(:степень :анкилозирующий_спондилоартрит <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#3>)
+
+# Individual: :артерии (:артерии)
+
+ClassAssertion(:сосуды :артерии)
+
+# Individual: :артериолы (:артериолы)
+
+ClassAssertion(:сосуды :артериолы)
+
+# Individual: :аутоиммунная_кардиомиопатия (:аутоиммунная_кардиомиопатия)
+
+ClassAssertion(:аутоиммунные_заболевания_сердечно-сосудистой_системы :аутоиммунная_кардиомиопатия)
+ObjectPropertyAssertion(:поражаемая_ткань :аутоиммунная_кардиомиопатия :миокард)
+
+# Individual: :аутоиммунный_атеросклероз (:аутоиммунный_атеросклероз)
+
+ClassAssertion(:аутоиммунные_заболевания_сердечно-сосудистой_системы :аутоиммунный_атеросклероз)
+ObjectPropertyAssertion(:поражаемые_сосуды :аутоиммунный_атеросклероз :артерии)
+
+# Individual: :аутоиммунный_гепатит (:аутоиммунный_гепатит)
+
+ClassAssertion(:аутоиммунные_заболевания_желудочно-кишечного_тракта :аутоиммунный_гепатит)
+ObjectPropertyAssertion(:осложнение :аутоиммунный_гепатит :язвенный_колит)
+ObjectPropertyAssertion(:поражаемый_орган :аутоиммунный_гепатит :печень)
+DataPropertyAssertion(:симптом :аутоиммунный_гепатит "высыпания на коже — сосудистые звездочки;
+жедтушность кожи;
+потемнение мочи;
+экзема")
+
+# Individual: :аутоиммунный_миокардит (:аутоиммунный_миокардит)
+
+ClassAssertion(:аутоиммунные_заболевания_сердечно-сосудистой_системы :аутоиммунный_миокардит)
+ObjectPropertyAssertion(:поражаемая_ткань :аутоиммунный_миокардит :миокард)
+
+# Individual: :болезнь_Микулича (:болезнь_Микулича)
+
+ClassAssertion(:аутоиммунные_заболевания :болезнь_Микулича)
+
+# Individual: :болезнь_Стилла (:болезнь_Стилла)
+
+ClassAssertion(:аутоиммунные_заболевания_опорно-двигательного_аппарата :болезнь_Стилла)
+ObjectPropertyAssertion(:осложнение :болезнь_Стилла :аутоиммунный_миокардит)
+ObjectPropertyAssertion(:поражаемая_структура :болезнь_Стилла :суставы)
+DataPropertyAssertion(:симптом :болезнь_Стилла "лихорадка;
+температура тела выше 39°;
+артралгия;
+артрит;
+боль в горле")
+
+# Individual: :бронхи (:бронхи)
+
+ClassAssertion(:нижние_дыхательные_пути :бронхи)
+ClassAssertion(:орган :бронхи)
+
+# Individual: :бронхиолы (:бронхиолы)
+
+ClassAssertion(:нижние_дыхательные_пути :бронхиолы)
+ClassAssertion(:орган :бронхиолы)
+
+# Individual: :венулы (:венулы)
+
+ClassAssertion(:сосуды :венулы)
+
+# Individual: :вены (:вены)
+
+ClassAssertion(:сосуды :вены)
+
+# Individual: :гортань_ниже_голосовых_связок (:гортань_ниже_голосовых_связок)
+
+ClassAssertion(:нижние_дыхательные_пути :гортань_ниже_голосовых_связок)
+ClassAssertion(:орган :гортань_ниже_голосовых_связок)
+
+# Individual: :двенадцатиперстная_кишка (:двенадцатиперстная_кишка)
+
+ClassAssertion(:желудочно-кишечный_тракт :двенадцатиперстная_кишка)
+ClassAssertion(:орган :двенадцатиперстная_кишка)
+
+# Individual: :желудок (:желудок)
+
+ClassAssertion(:желудочно-кишечный_тракт :желудок)
+
+# Individual: :желудочки (:желудочки)
+
+ClassAssertion(:орган :желудочки)
+ClassAssertion(:сердце :желудочки)
+ClassAssertion(:структуры :желудочки)
+
+# Individual: :желудочно-кишечная_аллергия (:желудочно-кишечная_аллергия)
+
+ClassAssertion(:аллергические_заболевания :желудочно-кишечная_аллергия)
+
+# Individual: :желчный_пузырь (:желчный_пузырь)
+
+ClassAssertion(:желудочно-кишечный_тракт :желчный_пузырь)
+ClassAssertion(:орган :желчный_пузырь)
+
+# Individual: :капилляры (:капилляры)
+
+ClassAssertion(:сосуды :капилляры)
+
+# Individual: :клапаны (:клапаны)
+
+ClassAssertion(:сердце :клапаны)
+ClassAssertion(:структуры :клапаны)
+
+# Individual: :кожа (:кожа)
+
+ClassAssertion(:орган :кожа)
+ClassAssertion(:покровная_система :кожа)
+
+# Individual: :кожные_придатки (:кожные_придатки)
+
+ClassAssertion(:орган :кожные_придатки)
+ClassAssertion(:покровная_система :кожные_придатки)
+
+# Individual: :кости (:кости)
+
+ClassAssertion(:опорно-двигательный_аппарат :кости)
+ClassAssertion(:орган :кости)
+
+# Individual: :лёгкие (:лёгкие)
+
+ClassAssertion(:нижние_дыхательные_пути :лёгкие)
+ClassAssertion(:орган :лёгкие)
+ObjectPropertyAssertion(:строение :лёгкие :плевра)
+
+# Individual: :межпозвоночные_суставы (:межпозвоночные_суставы)
+
+ClassAssertion(:опорно-двигательный_аппарат :межпозвоночные_суставы)
+ClassAssertion(:структуры :межпозвоночные_суставы)
+
+# Individual: :миокард (:миокард)
+
+ClassAssertion(:сердце :миокард)
+ClassAssertion(:ткань :миокард)
+
+# Individual: :мышцы (:мышцы)
+
+ClassAssertion(:опорно-двигательный_аппарат :мышцы)
+ClassAssertion(:орган :мышцы)
+
+# Individual: :орехи (:орехи)
+
+ClassAssertion(:продукты_питания :орехи)
+ObjectPropertyAssertion(:вызывать :орехи :пищевая_аллергия)
+
+# Individual: :первичный_билиарный_холангит (:первичный_билиарный_холангит)
+
+ClassAssertion(:аутоиммунные_заболевания_желудочно-кишечного_тракта :первичный_билиарный_холангит)
+ObjectPropertyAssertion(:поражаемый_орган :первичный_билиарный_холангит :печень)
+ObjectPropertyAssertion(:последствие :первичный_билиарный_холангит :цироз_печени)
+
+# Individual: :первичный_желчный_холангит (:первичный_желчный_холангит)
+
+ClassAssertion(:аутоиммунные_заболевания_желудочно-кишечного_тракта :первичный_желчный_холангит)
+ObjectPropertyAssertion(:поражаемый_орган :первичный_желчный_холангит :печень)
+ObjectPropertyAssertion(:разновидность :первичный_желчный_холангит :первичный_билиарный_холангит)
+ObjectPropertyAssertion(:степень :первичный_желчный_холангит <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#1>)
+ObjectPropertyAssertion(:степень :первичный_желчный_холангит <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#2>)
+ObjectPropertyAssertion(:степень :первичный_желчный_холангит <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#3>)
+ObjectPropertyAssertion(:степень :первичный_желчный_холангит <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#4>)
+ObjectPropertyAssertion(:степень :первичный_желчный_холангит <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#5>)
+
+# Individual: :печень (:печень)
+
+ClassAssertion(:желудочно-кишечный_тракт :печень)
+ClassAssertion(:орган :печень)
+
+# Individual: :пищевая_аллергия (:пищевая_аллергия)
+
+ClassAssertion(:аллергические_заболевания :пищевая_аллергия)
+ObjectPropertyAssertion(:форма :пищевая_аллергия :желудочно-кишечная_аллергия)
+
+# Individual: :пищевод (:пищевод)
+
+ClassAssertion(:желудочно-кишечный_тракт :пищевод)
+ClassAssertion(:орган :пищевод)
+
+# Individual: :плевра (:плевра)
+
+ClassAssertion(:нижние_дыхательные_пути :плевра)
+ClassAssertion(:ткань :плевра)
+
+# Individual: :поджелудочная_железа (:поджелудочная_железа)
+
+ClassAssertion(:желудочно-кишечный_тракт :поджелудочная_железа)
+ClassAssertion(:орган :поджелудочная_железа)
+
+# Individual: :подкожная_клетчатка (:подкожная_клетчатка)
+
+ClassAssertion(:покровная_система :подкожная_клетчатка)
+ClassAssertion(:ткань :подкожная_клетчатка)
+
+# Individual: :полимиозит (:полимиозит)
+
+ClassAssertion(:аутоиммунные_заболевания_опорно-двигательного_аппарата :полимиозит)
+ObjectPropertyAssertion(:поражаемый_орган :полимиозит :мышцы)
+DataPropertyAssertion(:симптом :полимиозит "затруднение глотания")
+DataPropertyAssertion(:симптом :полимиозит "мышечная слабость")
+DataPropertyAssertion(:симптом :полимиозит "непроходящая усталость")
+DataPropertyAssertion(:симптом :полимиозит "удушье")
+
+# Individual: :предсердия (:предсердия)
+
+ClassAssertion(:сердце :предсердия)
+ClassAssertion(:структуры :предсердия)
+
+# Individual: :прямая_кишка (:прямая_кишка)
+
+ClassAssertion(:желудочно-кишечный_тракт :прямая_кишка)
+ClassAssertion(:орган :прямая_кишка)
+
+# Individual: :ревматоидный_артрит (:ревматоидный_артрит)
+
+ClassAssertion(:аутоиммунные_заболевания_опорно-двигательного_аппарата :ревматоидный_артрит)
+ObjectPropertyAssertion(:поражаемая_структура :ревматоидный_артрит :суставы)
+ObjectPropertyAssertion(:последствие :ревматоидный_артрит :синдром_Фелти)
+ObjectPropertyAssertion(:разновидность :ревматоидный_артрит :болезнь_Стилла)
+ObjectPropertyAssertion(:разновидность :ревматоидный_артрит :ювенильный_ревматоидный_артрит)
+
+# Individual: :рыба (:рыба)
+
+ClassAssertion(:продукты_питания :рыба)
+ObjectPropertyAssertion(:вызывать :рыба :пищевая_аллергия)
+
+# Individual: :связки (:связки)
+
+ClassAssertion(:опорно-двигательный_аппарат :связки)
+ClassAssertion(:ткань :связки)
+
+# Individual: :сигмовидная_кишка (:сигмовидная_кишка)
+
+ClassAssertion(:желудочно-кишечный_тракт :сигмовидная_кишка)
+ClassAssertion(:орган :сигмовидная_кишка)
+
+# Individual: :синдром_Леффлера (:синдром_Леффлера)
+
+ClassAssertion(:аллергические_заболевания :синдром_Леффлера)
+ClassAssertion(:заболевания_нижних_дыхательных_путей :синдром_Леффлера)
+ObjectPropertyAssertion(:поражаемый_орган :синдром_Леффлера :лёгкие)
+
+# Individual: :синдром_Свита (:синдром_Свита)
+
+ClassAssertion(:аллергические_заболевания :синдром_Свита)
+ClassAssertion(:заболевания_покровной_системы :синдром_Свита)
+ObjectPropertyAssertion(:поражаемый_орган :синдром_Свита :кожа)
+
+# Individual: :синдром_Фелти (:синдром_Фелти)
+
+ClassAssertion(:аутоиммунные_заболевания :синдром_Фелти)
+
+# Individual: :слепая_кишка (:слепая_кишка)
+
+ClassAssertion(:желудочно-кишечный_тракт :слепая_кишка)
+ClassAssertion(:орган :слепая_кишка)
+
+# Individual: :слизистокожные_соединения (:слизистокожные_соединения)
+
+ClassAssertion(:орган :слизистокожные_соединения)
+ClassAssertion(:покровная_система :слизистокожные_соединения)
+
+# Individual: :суставы (:суставы)
+
+ClassAssertion(:опорно-двигательный_аппарат :суставы)
+ClassAssertion(:структуры :суставы)
+ObjectPropertyAssertion(:классификация :суставы :амфиартрозы)
+
+# Individual: :сухожилия (:сухожилия)
+
+ClassAssertion(:опорно-двигательный_аппарат :сухожилия)
+ClassAssertion(:ткань :сухожилия)
+
+# Individual: :толстая_кишка (:толстая_кишка)
+
+ClassAssertion(:желудочно-кишечный_тракт :толстая_кишка)
+ClassAssertion(:орган :толстая_кишка)
+
+# Individual: :тонкая_кишка (:тонкая_кишка)
+
+ClassAssertion(:желудочно-кишечный_тракт :тонкая_кишка)
+ClassAssertion(:орган :тонкая_кишка)
+
+# Individual: :трахея (:трахея)
+
+ClassAssertion(:нижние_дыхательные_пути :трахея)
+ClassAssertion(:орган :трахея)
+
+# Individual: :туберкулёз_плевры (:туберкулёз_плевры)
+
+ClassAssertion(:аллергические_заболевания :туберкулёз_плевры)
+ClassAssertion(:заболевания_нижних_дыхательных_путей :туберкулёз_плевры)
+ObjectPropertyAssertion(:поражаемая_ткань :туберкулёз_плевры :плевра)
+
+# Individual: :цироз_печени (:цироз_печени)
+
+ClassAssertion(:заболевания_печени :цироз_печени)
+
+# Individual: :эндокардит_Либмана-Сакса (:эндокардит_Либмана-Сакса)
+
+ClassAssertion(:аутоиммунные_заболевания_сердечно-сосудистой_системы :эндокардит_Либмана-Сакса)
+ObjectPropertyAssertion(:поражаемая_структура :эндокардит_Либмана-Сакса :клапаны)
+
+# Individual: :ювенильный_ревматоидный_артрит (:ювенильный_ревматоидный_артрит)
+
+ClassAssertion(:аутоиммунные_заболевания_опорно-двигательного_аппарата :ювенильный_ревматоидный_артрит)
+ObjectPropertyAssertion(:поражаемая_структура :ювенильный_ревматоидный_артрит :суставы)
+
+# Individual: :язвенный_колит (:язвенный_колит)
+
+ClassAssertion(:аутоиммунные_заболевания_желудочно-кишечного_тракта :язвенный_колит)
+ObjectPropertyAssertion(:осложнение :язвенный_колит :ревматоидный_артрит)
+ObjectPropertyAssertion(:поражаемый_орган :язвенный_колит :толстая_кишка)
+
+# Individual: :яйца (:яйца)
+
+ClassAssertion(:продукты_питания :яйца)
+ObjectPropertyAssertion(:вызывать :яйца :пищевая_аллергия)
+
+# Individual: <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#1> (<http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#1>)
+
+ClassAssertion(:натуральные_числа <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#1>)
+
+# Individual: <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#2> (<http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#2>)
+
+ClassAssertion(:натуральные_числа <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#2>)
+
+# Individual: <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#3> (<http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#3>)
+
+ClassAssertion(:натуральные_числа <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#3>)
+
+# Individual: <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#4> (<http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#4>)
+
+ClassAssertion(:натуральные_числа <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#4>)
+
+# Individual: <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#5> (<http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#5>)
+
+ClassAssertion(:натуральные_числа <http://www.semanticweb.org/acer/ontologies/2024/2/untitled-ontology-7#5>)
+
+
+)
